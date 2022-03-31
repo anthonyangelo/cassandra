@@ -30,5 +30,5 @@ stages:
             NOW_API="$(nowServer)/api/sn_sro/service_registration/builder"
             curl -X POST -H "Content-Type: application/json" "$NOW_API" \
             --user $(nowUserName):$(nowPassword) \
-            -d @registration/$(serviceMap).json | jq .
+            -d @registration/$(serviceMap) | jq .
           displayName: 'Registering Images'
