@@ -74,7 +74,7 @@ stages:
   #             }
   #       - task: ServiceNow-DevOps-Server-Change-Acceleration@1
   #         inputs:
-  #           connectedServiceName: 'srecon21-cassandra-ServiceNow DevOps Service Connection'
+  #           connectedServiceName: 'srecon22-cassandra-ServiceNow DevOps Service Connection'
   #           changeRequestDetails: |
   #             {
   #               "setCloseCode" : true,
