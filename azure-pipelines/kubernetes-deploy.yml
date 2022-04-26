@@ -83,7 +83,7 @@ stages:
                     "name": "$(serviceName)"
                   }
                 }
-              }              
+              }
 
   ##############################################################################
   ###               BUILD DOCKER IMAGE AND PUSH TO DOCKER HUB                ###
