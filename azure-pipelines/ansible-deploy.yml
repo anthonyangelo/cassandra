@@ -23,4 +23,4 @@ stages:
             set -x # Echo Commands
             # Install Tools
             echo "Deploying Ansible"
-          displayName: 'Running Tests'
+          displayName: 'Deploying Ansibe'
