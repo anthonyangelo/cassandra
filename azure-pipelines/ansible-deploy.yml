@@ -22,5 +22,7 @@ stages:
         - bash: |
             set -x # Echo Commands
             # Install Tools
-            echo "Deploying Ansible"
+            echo "Checking Versions"
+            ansible --version
+            ansible-playbook --version
           displayName: 'Deploying Ansibe'
